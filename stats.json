@@ -1,0 +1,2227 @@
+{
+  "year": 2025,
+  "generated_at": "2025-12-28T15:10:37.130974",
+  "categories": {
+    "voice": {
+      "title": "Голосовые сообщения",
+      "subtitle": "минут аудио",
+      "unit": "мин",
+      "data": [
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 584.3,
+          "extra": {
+            "count": 812,
+            "total_seconds": 35059
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 431.4,
+          "extra": {
+            "count": 1260,
+            "total_seconds": 25885
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 231.9,
+          "extra": {
+            "count": 179,
+            "total_seconds": 13916
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 192.7,
+          "extra": {
+            "count": 219,
+            "total_seconds": 11560
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 127.5,
+          "extra": {
+            "count": 271,
+            "total_seconds": 7651
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 86.5,
+          "extra": {
+            "count": 144,
+            "total_seconds": 5193
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 42.6,
+          "extra": {
+            "count": 180,
+            "total_seconds": 2557
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 23.1,
+          "extra": {
+            "count": 71,
+            "total_seconds": 1387
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 15.3,
+          "extra": {
+            "count": 50,
+            "total_seconds": 918
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 5.6,
+          "extra": {
+            "count": 15,
+            "total_seconds": 338
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        }
+      ]
+    },
+    "video_notes": {
+      "title": "Видео-кружочки",
+      "subtitle": "записей",
+      "unit": "шт",
+      "data": [
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 912,
+          "extra": {
+            "total_minutes": 518.0,
+            "total_seconds": 31079.839999999993
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 312,
+          "extra": {
+            "total_minutes": 90.3,
+            "total_seconds": 5418.1780000000035
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 225,
+          "extra": {
+            "total_minutes": 66.7,
+            "total_seconds": 3999.9909999999995
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 199,
+          "extra": {
+            "total_minutes": 85.7,
+            "total_seconds": 5142.972999999998
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 145,
+          "extra": {
+            "total_minutes": 59.1,
+            "total_seconds": 3543.122000000001
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 130,
+          "extra": {
+            "total_minutes": 30.8,
+            "total_seconds": 1848.7970000000007
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 107,
+          "extra": {
+            "total_minutes": 20.7,
+            "total_seconds": 1244.6760000000002
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 79,
+          "extra": {
+            "total_minutes": 15.2,
+            "total_seconds": 910.1069999999997
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 47,
+          "extra": {
+            "total_minutes": 9.4,
+            "total_seconds": 565.85
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 31,
+          "extra": {
+            "total_minutes": 3.9,
+            "total_seconds": 232.21500000000003
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 7708867557,
+          "user_name": "HohmaOnlineBot",
+          "display_name": "Хохма бот",
+          "value": 5,
+          "extra": {
+            "total_minutes": 1.5,
+            "total_seconds": 90.848
+          },
+          "avatar_path": "avatars/7708867557.jpg"
+        }
+      ]
+    },
+    "messages": {
+      "title": "Количество сообщений",
+      "subtitle": "сообщений",
+      "unit": "шт",
+      "data": [
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 20211,
+          "extra": {
+            "total_chars": 599473
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 19024,
+          "extra": {
+            "total_chars": 577320
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 17737,
+          "extra": {
+            "total_chars": 441362
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 10586,
+          "extra": {
+            "total_chars": 343787
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 8721,
+          "extra": {
+            "total_chars": 229529
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 7317,
+          "extra": {
+            "total_chars": 203714
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 6281,
+          "extra": {
+            "total_chars": 228360
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 6168,
+          "extra": {
+            "total_chars": 171941
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 5559,
+          "extra": {
+            "total_chars": 219769
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 7708867557,
+          "user_name": "HohmaOnlineBot",
+          "display_name": "Хохма бот",
+          "value": 3879,
+          "extra": {
+            "total_chars": 150913
+          },
+          "avatar_path": "avatars/7708867557.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 3784,
+          "extra": {
+            "total_chars": 109364
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        }
+      ]
+    },
+    "stickers": {
+      "title": "Популярные стикеры",
+      "subtitle": "использований",
+      "unit": "шт",
+      "data": [
+        {
+          "item_id": "5357387942690032393",
+          "item_name": "💀",
+          "value": 145,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5357387942690032393.webp"
+          }
+        },
+        {
+          "item_id": "7173162320003294",
+          "item_name": "🐶",
+          "value": 59,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/7173162320003294.webp"
+          }
+        },
+        {
+          "item_id": "3468797394215240379",
+          "item_name": "😼",
+          "value": 55,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/3468797394215240379.webp"
+          }
+        },
+        {
+          "item_id": "5199408174980934150",
+          "item_name": "🤣",
+          "value": 28,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5199408174980934150.webp"
+          }
+        },
+        {
+          "item_id": "5994673287400003180",
+          "item_name": "🥺",
+          "value": 25,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5994673287400003180.webp"
+          }
+        },
+        {
+          "item_id": "4110987462728221019",
+          "item_name": "😝",
+          "value": 24,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/4110987462728221019.webp"
+          }
+        },
+        {
+          "item_id": "5202093418599177231",
+          "item_name": "👊",
+          "value": 23,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5202093418599177231.webp"
+          }
+        },
+        {
+          "item_id": "5357189489431153906",
+          "item_name": "😇",
+          "value": 21,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5357189489431153906.webp"
+          }
+        },
+        {
+          "item_id": "4110987462728221534",
+          "item_name": "😌",
+          "value": 21,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/4110987462728221534.webp"
+          }
+        },
+        {
+          "item_id": "1443809091126642",
+          "item_name": "☺️",
+          "value": 21,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/1443809091126642.webp"
+          }
+        },
+        {
+          "item_id": "5217660278455420714",
+          "item_name": "🕺",
+          "value": 20,
+          "user_id": null,
+          "user_name": null,
+          "extra": {
+            "set_name": null,
+            "sticker_path": "stickers/5217660278455420714.webp"
+          }
+        }
+      ]
+    },
+    "sticker_senders": {
+      "title": "Любители стикеров",
+      "subtitle": "стикеров отправлено",
+      "unit": "шт",
+      "data": [
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 451,
+          "extra": {
+            "top_stickers": [
+              "stickers/5357387942690032393.webp",
+              "stickers/5994673287400003180.webp",
+              "stickers/4110987462728221019.webp"
+            ]
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 401,
+          "extra": {
+            "top_stickers": [
+              "stickers/7173162320003294.webp",
+              "stickers/3468797394215240379.webp",
+              "stickers/5202093418599177231.webp"
+            ]
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        },
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 373,
+          "extra": {
+            "top_stickers": [
+              "stickers/1443809091126642.webp",
+              "stickers/5380085358790722610.webp",
+              "stickers/5377585567565366640.webp"
+            ]
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 325,
+          "extra": {
+            "top_stickers": [
+              "stickers/5357387942690032393.webp",
+              "stickers/34556877366886471.webp",
+              "stickers/5438619054296287587.webp"
+            ]
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 276,
+          "extra": {
+            "top_stickers": [
+              "stickers/5857020079484441089.webp",
+              "stickers/5393585785326799711.webp",
+              "stickers/847899021803520154.webp"
+            ]
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 226,
+          "extra": {
+            "top_stickers": [
+              "stickers/5199408174980934150.webp",
+              "stickers/5269304163518408066.webp",
+              "stickers/5287716602417008648.webp"
+            ]
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 189,
+          "extra": {
+            "top_stickers": [
+              "stickers/5357387942690032393.webp",
+              "stickers/5357189489431153906.webp",
+              "stickers/4110987462728221534.webp"
+            ]
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 131,
+          "extra": {
+            "top_stickers": [
+              "stickers/4110987462728221019.webp",
+              "stickers/5357387942690032393.webp",
+              "stickers/5238238733785896083.webp"
+            ]
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 72,
+          "extra": {
+            "top_stickers": [
+              "stickers/5764669044145787888.webp",
+              "stickers/5240085509593635403.webp",
+              "stickers/5316700308745764083.webp"
+            ]
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 15,
+          "extra": {
+            "top_stickers": [
+              "stickers/5431902571553904650.webp",
+              "stickers/5460819581335508505.webp",
+              "stickers/5402079199118760211.webp"
+            ]
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        }
+      ]
+    },
+    "emoji": {
+      "title": "Эмодзи в тексте",
+      "subtitle": "использований",
+      "unit": "шт",
+      "data": [
+        {
+          "item_id": "😂",
+          "item_name": "😂",
+          "value": 2600,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🤣",
+          "item_name": "🤣",
+          "value": 1169,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "📹",
+          "item_name": "📹",
+          "value": 931,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "😆",
+          "item_name": "😆",
+          "value": 704,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "⚡",
+          "item_name": "⚡",
+          "value": 533,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🎨",
+          "item_name": "🎨",
+          "value": 357,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🖼",
+          "item_name": "🖼",
+          "value": 310,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "❗",
+          "item_name": "❗",
+          "value": 299,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "😭",
+          "item_name": "😭",
+          "value": 270,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "👉",
+          "item_name": "👉",
+          "value": 253,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🟠",
+          "item_name": "🟠",
+          "value": 238,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        }
+      ]
+    },
+    "reactions": {
+      "title": "Популярные реакции",
+      "subtitle": "раз поставлено",
+      "unit": "шт",
+      "data": [
+        {
+          "item_id": "🤣",
+          "item_name": "🤣",
+          "value": 16959,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "😁",
+          "item_name": "😁",
+          "value": 13832,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "👍",
+          "item_name": "👍",
+          "value": 6665,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🔥",
+          "item_name": "🔥",
+          "value": 4036,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "😱",
+          "item_name": "😱",
+          "value": 1433,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🥰",
+          "item_name": "🥰",
+          "value": 1045,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "😢",
+          "item_name": "😢",
+          "value": 983,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "❤",
+          "item_name": "❤",
+          "value": 678,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🌚",
+          "item_name": "🌚",
+          "value": 488,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🤝",
+          "item_name": "🤝",
+          "value": 467,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        },
+        {
+          "item_id": "🗿",
+          "item_name": "🗿",
+          "value": 341,
+          "user_id": null,
+          "user_name": null,
+          "extra": null
+        }
+      ]
+    },
+    "favorite_person": {
+      "title": "Любимый человек",
+      "subtitle": "реакций поставлено",
+      "unit": "реакций",
+      "is_pair": true,
+      "data": [
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 2237,
+          "extra": {
+            "top_emojis": {
+              "😁": 492,
+              "👍": 477,
+              "🤣": 321,
+              "🔥": 283,
+              "😱": 161
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 2113,
+          "extra": {
+            "top_emojis": {
+              "😁": 752,
+              "👍": 556,
+              "🤣": 434,
+              "🔥": 117,
+              "🥰": 58
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 2051,
+          "extra": {
+            "top_emojis": {
+              "😁": 678,
+              "🤣": 564,
+              "👍": 392,
+              "🔥": 163,
+              "😱": 83
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 379157904,
+          "user2_name": "Яна",
+          "value": 1807,
+          "extra": {
+            "top_emojis": {
+              "😁": 573,
+              "🤣": 408,
+              "🔥": 221,
+              "👍": 196,
+              "😢": 118
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/379157904.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 195282466,
+          "user2_name": "Артем",
+          "value": 1674,
+          "extra": {
+            "top_emojis": {
+              "🤣": 707,
+              "😁": 671,
+              "👍": 108,
+              "🔥": 96,
+              "😱": 32
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/195282466.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 1666,
+          "extra": {
+            "top_emojis": {
+              "😁": 479,
+              "👍": 424,
+              "🤣": 308,
+              "🔥": 128,
+              "🥰": 81
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 1469,
+          "extra": {
+            "top_emojis": {
+              "😁": 514,
+              "🤣": 500,
+              "👍": 266,
+              "🔥": 34,
+              "😢": 19
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 1347,
+          "extra": {
+            "top_emojis": {
+              "🤣": 424,
+              "😁": 400,
+              "👍": 231,
+              "🔥": 40,
+              "😱": 37
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 1323,
+          "extra": {
+            "top_emojis": {
+              "🤣": 626,
+              "😁": 452,
+              "👍": 120,
+              "🔥": 38,
+              "👎": 18
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 837860467,
+          "user1_name": "Виталик",
+          "user2_id": 195282466,
+          "user2_name": "Артем",
+          "value": 1251,
+          "extra": {
+            "top_emojis": {
+              "🤣": 605,
+              "😁": 272,
+              "🔥": 143,
+              "👍": 80,
+              "❤": 46
+            }
+          },
+          "user1_avatar": "avatars/837860467.jpg",
+          "user2_avatar": "avatars/195282466.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 195282466,
+          "user2_name": "Артем",
+          "value": 1220,
+          "extra": {
+            "top_emojis": {
+              "😁": 522,
+              "🤣": 313,
+              "👍": 152,
+              "🔥": 79,
+              "🥰": 23
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/195282466.jpg"
+        },
+        {
+          "user1_id": 837860467,
+          "user1_name": "Виталик",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 1220,
+          "extra": {
+            "top_emojis": {
+              "🤣": 669,
+              "😁": 199,
+              "👍": 136,
+              "🔥": 96,
+              "🤝": 30
+            }
+          },
+          "user1_avatar": "avatars/837860467.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 837860467,
+          "user1_name": "Виталик",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 1117,
+          "extra": {
+            "top_emojis": {
+              "🤣": 539,
+              "😁": 192,
+              "👍": 94,
+              "❤": 77,
+              "🔥": 65
+            }
+          },
+          "user1_avatar": "avatars/837860467.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 379157904,
+          "user2_name": "Яна",
+          "value": 1009,
+          "extra": {
+            "top_emojis": {
+              "😁": 376,
+              "🤣": 308,
+              "👍": 127,
+              "🔥": 72,
+              "🥰": 41
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/379157904.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 238231930,
+          "user2_name": "Настя Лип",
+          "value": 955,
+          "extra": {
+            "top_emojis": {
+              "🤣": 475,
+              "😁": 300,
+              "👍": 126,
+              "🔥": 25,
+              "😱": 10
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/238231930.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 238231930,
+          "user2_name": "Настя Лип",
+          "value": 873,
+          "extra": {
+            "top_emojis": {
+              "🤣": 293,
+              "😁": 233,
+              "👍": 189,
+              "🔥": 32,
+              "🥰": 21
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/238231930.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 195282466,
+          "user2_name": "Артем",
+          "value": 869,
+          "extra": {
+            "top_emojis": {
+              "😁": 221,
+              "🤣": 199,
+              "👍": 119,
+              "🔥": 112,
+              "😱": 47
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/195282466.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 392719537,
+          "user2_name": "Павел",
+          "value": 834,
+          "extra": {
+            "top_emojis": {
+              "🤣": 337,
+              "😁": 248,
+              "🔥": 75,
+              "😱": 54,
+              "👍": 53
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/392719537.jpg"
+        },
+        {
+          "user1_id": 837860467,
+          "user1_name": "Виталик",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 831,
+          "extra": {
+            "top_emojis": {
+              "🤣": 308,
+              "😁": 128,
+              "🔥": 121,
+              "👍": 89,
+              "😱": 56
+            }
+          },
+          "user1_avatar": "avatars/837860467.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 448207268,
+          "user1_name": "Эмиль",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 801,
+          "extra": {
+            "top_emojis": {
+              "🤣": 337,
+              "😁": 248,
+              "👍": 84,
+              "😱": 26,
+              "🔥": 17
+            }
+          },
+          "user1_avatar": "avatars/448207268.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        }
+      ]
+    },
+    "mutual_love": {
+      "title": "Взаимная любовь",
+      "subtitle": "взаимных реакций",
+      "unit": "реакций",
+      "is_pair": true,
+      "data": [
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 4164,
+          "extra": {
+            "top_emojis": {
+              "😁": 1430,
+              "🤣": 998,
+              "👍": 948,
+              "🔥": 280,
+              "🥰": 134
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 4044,
+          "extra": {
+            "top_emojis": {
+              "😁": 1065,
+              "🤣": 729,
+              "👍": 673,
+              "🔥": 504,
+              "😱": 203
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 2675,
+          "extra": {
+            "top_emojis": {
+              "😁": 855,
+              "🤣": 616,
+              "👍": 551,
+              "🔥": 200,
+              "🥰": 122
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 2270,
+          "extra": {
+            "top_emojis": {
+              "🤣": 837,
+              "😁": 762,
+              "👍": 350,
+              "🔥": 51,
+              "😱": 44
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 2049,
+          "extra": {
+            "top_emojis": {
+              "🤣": 779,
+              "😁": 615,
+              "👍": 268,
+              "😱": 49,
+              "🔥": 47
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 2016,
+          "extra": {
+            "top_emojis": {
+              "🤣": 974,
+              "😁": 672,
+              "👍": 175,
+              "🔥": 44,
+              "😱": 20
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 837860467,
+          "user2_name": "Виталик",
+          "value": 1855,
+          "extra": {
+            "top_emojis": {
+              "🤣": 913,
+              "😁": 418,
+              "👍": 153,
+              "🔥": 84,
+              "❤": 78
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/837860467.jpg"
+        },
+        {
+          "user1_id": 195282466,
+          "user1_name": "Артем",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 1739,
+          "extra": {
+            "top_emojis": {
+              "🤣": 710,
+              "😁": 676,
+              "👍": 121,
+              "🔥": 110,
+              "😱": 32
+            }
+          },
+          "user1_avatar": "avatars/195282466.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 448207268,
+          "user1_name": "Эмиль",
+          "user2_id": 837860467,
+          "user2_name": "Виталик",
+          "value": 1666,
+          "extra": {
+            "top_emojis": {
+              "🤣": 901,
+              "😁": 335,
+              "👍": 162,
+              "🔥": 105,
+              "😱": 39
+            }
+          },
+          "user1_avatar": "avatars/448207268.jpg",
+          "user2_avatar": "avatars/837860467.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 837860467,
+          "user2_name": "Виталик",
+          "value": 1492,
+          "extra": {
+            "top_emojis": {
+              "🤣": 549,
+              "😁": 356,
+              "👍": 157,
+              "🔥": 155,
+              "😱": 78
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/837860467.jpg"
+        },
+        {
+          "user1_id": 394267240,
+          "user1_name": "Алина",
+          "user2_id": 401456608,
+          "user2_name": "Дима",
+          "value": 1368,
+          "extra": {
+            "top_emojis": {
+              "😁": 293,
+              "🤣": 246,
+              "👍": 195,
+              "🔥": 146,
+              "😢": 97
+            }
+          },
+          "user1_avatar": "avatars/394267240.jpg",
+          "user2_avatar": "avatars/401456608.jpg"
+        },
+        {
+          "user1_id": 238231930,
+          "user1_name": "Настя Лип",
+          "user2_id": 388537848,
+          "user2_name": "Настя Бро",
+          "value": 1339,
+          "extra": {
+            "top_emojis": {
+              "🤣": 599,
+              "😁": 387,
+              "👍": 209,
+              "🔥": 54,
+              "😱": 24
+            }
+          },
+          "user1_avatar": "avatars/238231930.jpg",
+          "user2_avatar": "avatars/388537848.jpg"
+        },
+        {
+          "user1_id": 195282466,
+          "user1_name": "Артем",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 1305,
+          "extra": {
+            "top_emojis": {
+              "😁": 527,
+              "🤣": 318,
+              "👍": 170,
+              "🔥": 95,
+              "🥰": 24
+            }
+          },
+          "user1_avatar": "avatars/195282466.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 195282466,
+          "user1_name": "Артем",
+          "user2_id": 837860467,
+          "user2_name": "Виталик",
+          "value": 1280,
+          "extra": {
+            "top_emojis": {
+              "🤣": 606,
+              "😁": 272,
+              "🔥": 151,
+              "👍": 87,
+              "❤": 51
+            }
+          },
+          "user1_avatar": "avatars/195282466.jpg",
+          "user2_avatar": "avatars/837860467.jpg"
+        },
+        {
+          "user1_id": 238231930,
+          "user1_name": "Настя Лип",
+          "user2_id": 379157904,
+          "user2_name": "Яна",
+          "value": 1274,
+          "extra": {
+            "top_emojis": {
+              "🤣": 454,
+              "😁": 375,
+              "👍": 226,
+              "🔥": 53,
+              "😱": 27
+            }
+          },
+          "user1_avatar": "avatars/238231930.jpg",
+          "user2_avatar": "avatars/379157904.jpg"
+        },
+        {
+          "user1_id": 392719537,
+          "user1_name": "Павел",
+          "user2_id": 394267240,
+          "user2_name": "Алина",
+          "value": 1233,
+          "extra": {
+            "top_emojis": {
+              "🤣": 281,
+              "😁": 260,
+              "👍": 188,
+              "🔥": 85,
+              "😱": 40
+            }
+          },
+          "user1_avatar": "avatars/392719537.jpg",
+          "user2_avatar": "avatars/394267240.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 392719537,
+          "user2_name": "Павел",
+          "value": 1179,
+          "extra": {
+            "top_emojis": {
+              "🤣": 414,
+              "😁": 309,
+              "👍": 113,
+              "🔥": 107,
+              "😱": 58
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/392719537.jpg"
+        },
+        {
+          "user1_id": 392719537,
+          "user1_name": "Павел",
+          "user2_id": 448207268,
+          "user2_name": "Эмиль",
+          "value": 1033,
+          "extra": {
+            "top_emojis": {
+              "🤣": 465,
+              "😁": 207,
+              "👍": 124,
+              "🔥": 26,
+              "💯": 19
+            }
+          },
+          "user1_avatar": "avatars/392719537.jpg",
+          "user2_avatar": "avatars/448207268.jpg"
+        },
+        {
+          "user1_id": 379157904,
+          "user1_name": "Яна",
+          "user2_id": 392719537,
+          "user2_name": "Павел",
+          "value": 982,
+          "extra": {
+            "top_emojis": {
+              "🤣": 299,
+              "😁": 202,
+              "👍": 118,
+              "🔥": 90,
+              "😱": 62
+            }
+          },
+          "user1_avatar": "avatars/379157904.jpg",
+          "user2_avatar": "avatars/392719537.jpg"
+        },
+        {
+          "user1_id": 388537848,
+          "user1_name": "Настя Бро",
+          "user2_id": 401456608,
+          "user2_name": "Дима",
+          "value": 969,
+          "extra": {
+            "top_emojis": {
+              "😁": 293,
+              "🤣": 231,
+              "👍": 118,
+              "🔥": 103,
+              "😢": 41
+            }
+          },
+          "user1_avatar": "avatars/388537848.jpg",
+          "user2_avatar": "avatars/401456608.jpg"
+        }
+      ]
+    },
+    "reaction_star": {
+      "title": "Звезда чата",
+      "subtitle": "реакций получено",
+      "unit": "реакций",
+      "data": [
+        {
+          "user_id": 394267240,
+          "user_name": "",
+          "display_name": "Алина",
+          "value": 7409,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1708,
+              "😁": 1688,
+              "👍": 1306,
+              "🔥": 766,
+              "😱": 351
+            },
+            "top_from": {
+              "Яна": 2237,
+              "Настя Бро": 2051,
+              "Виталик": 831
+            }
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "",
+          "display_name": "Настя Бро",
+          "value": 6776,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1860,
+              "😁": 1832,
+              "👍": 1359,
+              "🔥": 468,
+              "❤": 180
+            },
+            "top_from": {
+              "Алина": 2113,
+              "Яна": 1666,
+              "Виталик": 1117
+            }
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "",
+          "display_name": "Эмиль",
+          "value": 6661,
+          "extra": {
+            "top_emojis": {
+              "🤣": 2607,
+              "😁": 1774,
+              "👍": 960,
+              "🔥": 311,
+              "😢": 111
+            },
+            "top_from": {
+              "Алина": 1469,
+              "Яна": 1347,
+              "Настя Бро": 1323
+            }
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "",
+          "display_name": "Артем",
+          "value": 5993,
+          "extra": {
+            "top_emojis": {
+              "🤣": 2090,
+              "😁": 1919,
+              "👍": 581,
+              "🔥": 557,
+              "😱": 132
+            },
+            "top_from": {
+              "Настя Бро": 1674,
+              "Виталик": 1251,
+              "Алина": 1220
+            }
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 379157904,
+          "user_name": "",
+          "display_name": "Яна",
+          "value": 4839,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1526,
+              "😁": 1419,
+              "👍": 475,
+              "🔥": 454,
+              "😢": 193
+            },
+            "top_from": {
+              "Алина": 1807,
+              "Настя Бро": 1009,
+              "Эмиль": 702
+            }
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "",
+          "display_name": "Павел",
+          "value": 3982,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1582,
+              "😁": 972,
+              "🔥": 363,
+              "👍": 362,
+              "😱": 173
+            },
+            "top_from": {
+              "Настя Бро": 834,
+              "Яна": 724,
+              "Алина": 695
+            }
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "",
+          "display_name": "Настя Лип",
+          "value": 3622,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1608,
+              "😁": 947,
+              "👍": 499,
+              "🔥": 157,
+              "😢": 61
+            },
+            "top_from": {
+              "Настя Бро": 955,
+              "Яна": 873,
+              "Алина": 555
+            }
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "",
+          "display_name": "Дима",
+          "value": 3406,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1078,
+              "😁": 962,
+              "👍": 399,
+              "🔥": 247,
+              "😱": 86
+            },
+            "top_from": {
+              "Алина": 751,
+              "Виталик": 684,
+              "Настя Бро": 618
+            }
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "",
+          "display_name": "Саша",
+          "value": 3330,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1193,
+              "😁": 1083,
+              "👍": 286,
+              "🔥": 201,
+              "😱": 94
+            },
+            "top_from": {
+              "Алина": 634,
+              "Яна": 623,
+              "Настя Бро": 595
+            }
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "",
+          "display_name": "Виталик",
+          "value": 2815,
+          "extra": {
+            "top_emojis": {
+              "🤣": 1113,
+              "😁": 781,
+              "👍": 301,
+              "🔥": 192,
+              "😱": 94
+            },
+            "top_from": {
+              "Настя Бро": 738,
+              "Алина": 661,
+              "Эмиль": 446
+            }
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        },
+        {
+          "user_id": 7708867557,
+          "user_name": "",
+          "display_name": "Хохма бот",
+          "value": 2016,
+          "extra": {
+            "top_emojis": {
+              "🤣": 594,
+              "😁": 455,
+              "🔥": 320,
+              "🥰": 208,
+              "👍": 137
+            },
+            "top_from": {
+              "Алина": 498,
+              "Яна": 484,
+              "Настя Бро": 325
+            }
+          },
+          "avatar_path": "avatars/7708867557.jpg"
+        }
+      ]
+    },
+    "user_summary": {
+      "title": "Сводка по участникам",
+      "subtitle": "полная статистика",
+      "unit": "",
+      "is_summary": true,
+      "data": [
+        {
+          "user_id": 394267240,
+          "display_name": "Алина",
+          "avatar_path": "avatars/394267240.jpg",
+          "messages_count": 20211,
+          "total_chars": 599473,
+          "voice_count": 271,
+          "voice_seconds": 7651,
+          "video_notes_count": 312,
+          "video_notes_seconds": 5418,
+          "reactions_received": 7409,
+          "reactions_given": 10409
+        },
+        {
+          "user_id": 448207268,
+          "display_name": "Эмиль",
+          "avatar_path": "avatars/448207268.jpg",
+          "messages_count": 19024,
+          "total_chars": 577320,
+          "voice_count": 1260,
+          "voice_seconds": 25885,
+          "video_notes_count": 47,
+          "video_notes_seconds": 565,
+          "reactions_received": 6661,
+          "reactions_given": 5097
+        },
+        {
+          "user_id": 388537848,
+          "display_name": "Настя Бро",
+          "avatar_path": "avatars/388537848.jpg",
+          "messages_count": 17737,
+          "total_chars": 441362,
+          "voice_count": 144,
+          "voice_seconds": 5193,
+          "video_notes_count": 130,
+          "video_notes_seconds": 1848,
+          "reactions_received": 6776,
+          "reactions_given": 10126
+        },
+        {
+          "user_id": 195282466,
+          "display_name": "Артем",
+          "avatar_path": "avatars/195282466.jpg",
+          "messages_count": 10586,
+          "total_chars": 343787,
+          "voice_count": 50,
+          "voice_seconds": 918,
+          "video_notes_count": 225,
+          "video_notes_seconds": 3999,
+          "reactions_received": 5993,
+          "reactions_given": 344
+        },
+        {
+          "user_id": 379157904,
+          "display_name": "Яна",
+          "avatar_path": "avatars/379157904.jpg",
+          "messages_count": 8721,
+          "total_chars": 229529,
+          "voice_count": 812,
+          "voice_seconds": 35059,
+          "video_notes_count": 912,
+          "video_notes_seconds": 31079,
+          "reactions_received": 4839,
+          "reactions_given": 9648
+        },
+        {
+          "user_id": 364045474,
+          "display_name": "Саша",
+          "avatar_path": "avatars/364045474.jpg",
+          "messages_count": 7317,
+          "total_chars": 203714,
+          "voice_count": 219,
+          "voice_seconds": 11560,
+          "video_notes_count": 199,
+          "video_notes_seconds": 5142,
+          "reactions_received": 3330,
+          "reactions_given": 276
+        },
+        {
+          "user_id": 238231930,
+          "display_name": "Настя Лип",
+          "avatar_path": "avatars/238231930.jpg",
+          "messages_count": 6281,
+          "total_chars": 228360,
+          "voice_count": 179,
+          "voice_seconds": 13916,
+          "video_notes_count": 79,
+          "video_notes_seconds": 910,
+          "reactions_received": 3622,
+          "reactions_given": 2299
+        },
+        {
+          "user_id": 392719537,
+          "display_name": "Павел",
+          "avatar_path": "avatars/392719537.jpg",
+          "messages_count": 6168,
+          "total_chars": 171941,
+          "voice_count": 180,
+          "voice_seconds": 2557,
+          "video_notes_count": 31,
+          "video_notes_seconds": 232,
+          "reactions_received": 3982,
+          "reactions_given": 2748
+        },
+        {
+          "user_id": 401456608,
+          "display_name": "Дима",
+          "avatar_path": "avatars/401456608.jpg",
+          "messages_count": 5559,
+          "total_chars": 219769,
+          "voice_count": 71,
+          "voice_seconds": 1387,
+          "video_notes_count": 145,
+          "video_notes_seconds": 3543,
+          "reactions_received": 3406,
+          "reactions_given": 2779
+        },
+        {
+          "user_id": 7708867557,
+          "display_name": "Хохма бот",
+          "avatar_path": "avatars/7708867557.jpg",
+          "messages_count": 3879,
+          "total_chars": 150913,
+          "voice_count": 0,
+          "voice_seconds": 0,
+          "video_notes_count": 5,
+          "video_notes_seconds": 90,
+          "reactions_received": 2016,
+          "reactions_given": 0
+        },
+        {
+          "user_id": 837860467,
+          "display_name": "Виталик",
+          "avatar_path": "avatars/837860467.jpg",
+          "messages_count": 3784,
+          "total_chars": 109364,
+          "voice_count": 15,
+          "voice_seconds": 338,
+          "video_notes_count": 107,
+          "video_notes_seconds": 1244,
+          "reactions_received": 2815,
+          "reactions_given": 7123
+        }
+      ]
+    },
+    "verbose_users": {
+      "title": "Самые многословные",
+      "subtitle": "символов в среднем",
+      "unit": "симв.",
+      "data": [
+        {
+          "user_id": 7708867557,
+          "user_name": "HohmaOnlineBot",
+          "display_name": "Хохма бот",
+          "value": 46.9,
+          "extra": {
+            "msg_count": 3218,
+            "total_chars": 150913
+          },
+          "avatar_path": "avatars/7708867557.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 42.6,
+          "extra": {
+            "msg_count": 5153,
+            "total_chars": 219769
+          },
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 40.0,
+          "extra": {
+            "msg_count": 5707,
+            "total_chars": 228360
+          },
+          "avatar_path": "avatars/238231930.jpg"
+        },
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 38.2,
+          "extra": {
+            "msg_count": 6011,
+            "total_chars": 229529
+          },
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 37.9,
+          "extra": {
+            "msg_count": 9077,
+            "total_chars": 343787
+          },
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 35.2,
+          "extra": {
+            "msg_count": 3103,
+            "total_chars": 109364
+          },
+          "avatar_path": "avatars/837860467.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 34.2,
+          "extra": {
+            "msg_count": 16886,
+            "total_chars": 577320
+          },
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 32.7,
+          "extra": {
+            "msg_count": 18319,
+            "total_chars": 599473
+          },
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 32.2,
+          "extra": {
+            "msg_count": 6324,
+            "total_chars": 203714
+          },
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 31.5,
+          "extra": {
+            "msg_count": 5458,
+            "total_chars": 171941
+          },
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 26.0,
+          "extra": {
+            "msg_count": 17004,
+            "total_chars": 441362
+          },
+          "avatar_path": "avatars/388537848.jpg"
+        }
+      ]
+    },
+    "forwarders": {
+      "title": "Любители репостов",
+      "subtitle": "репостов",
+      "unit": "шт",
+      "data": [
+        {
+          "user_id": 392719537,
+          "user_name": "pavel_rockstar",
+          "display_name": "Павел",
+          "value": 1227,
+          "extra": null,
+          "avatar_path": "avatars/392719537.jpg"
+        },
+        {
+          "user_id": 394267240,
+          "user_name": "demyanenka",
+          "display_name": "Алина",
+          "value": 1158,
+          "extra": null,
+          "avatar_path": "avatars/394267240.jpg"
+        },
+        {
+          "user_id": 837860467,
+          "user_name": "JuristVlasenko",
+          "display_name": "Виталик",
+          "value": 586,
+          "extra": null,
+          "avatar_path": "avatars/837860467.jpg"
+        },
+        {
+          "user_id": 364045474,
+          "user_name": "sorodic",
+          "display_name": "Саша",
+          "value": 393,
+          "extra": null,
+          "avatar_path": "avatars/364045474.jpg"
+        },
+        {
+          "user_id": 401456608,
+          "user_name": "solnts_d",
+          "display_name": "Дима",
+          "value": 384,
+          "extra": null,
+          "avatar_path": "avatars/401456608.jpg"
+        },
+        {
+          "user_id": 379157904,
+          "user_name": "octopuf",
+          "display_name": "Яна",
+          "value": 354,
+          "extra": null,
+          "avatar_path": "avatars/379157904.jpg"
+        },
+        {
+          "user_id": 195282466,
+          "user_name": "riqtu",
+          "display_name": "Артем",
+          "value": 311,
+          "extra": null,
+          "avatar_path": "avatars/195282466.jpg"
+        },
+        {
+          "user_id": 448207268,
+          "user_name": "emildzhemilev",
+          "display_name": "Эмиль",
+          "value": 287,
+          "extra": null,
+          "avatar_path": "avatars/448207268.jpg"
+        },
+        {
+          "user_id": 388537848,
+          "user_name": "nbrodobro",
+          "display_name": "Настя Бро",
+          "value": 154,
+          "extra": null,
+          "avatar_path": "avatars/388537848.jpg"
+        },
+        {
+          "user_id": 238231930,
+          "user_name": "Nestis_s",
+          "display_name": "Настя Лип",
+          "value": 63,
+          "extra": null,
+          "avatar_path": "avatars/238231930.jpg"
+        }
+      ]
+    }
+  },
+  "chat_summary": {
+    "total_messages": 114184,
+    "total_reactions": 50849,
+    "total_users": 11,
+    "first_message_date": "2025-01-01T00:21:17",
+    "last_message_date": "2025-12-24T15:49:12",
+    "avg_messages_per_day": 319.8
+  },
+  "activity": {
+    "by_weekday": [
+      17238,
+      18379,
+      19280,
+      21197,
+      24329,
+      7199,
+      6562
+    ],
+    "weekday_labels": [
+      "Пн",
+      "Вт",
+      "Ср",
+      "Чт",
+      "Пт",
+      "Сб",
+      "Вс"
+    ],
+    "by_hour": [
+      159,
+      73,
+      84,
+      255,
+      420,
+      991,
+      2897,
+      7703,
+      10400,
+      12056,
+      8881,
+      10263,
+      10423,
+      10797,
+      10447,
+      7038,
+      4703,
+      3070,
+      3622,
+      3059,
+      3072,
+      2254,
+      876,
+      641
+    ]
+  }
+}

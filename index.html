@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Итоги года 2025</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Фоновые огоньки -->
+    <div class="lights-container" id="lights"></div>
+    
+    <!-- Заголовок -->
+    <header class="header">
+        <div class="year-badge">2025</div>
+        <h1>Итоги года</h1>
+        <p class="subtitle" id="chat-subtitle">Загрузка...</p>
+    </header>
+
+    <!-- Карусель категорий -->
+    <div class="carousel-wrapper">
+        <div class="carousel" id="carousel">
+            <!-- Карточки добавляются через JS -->
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="nav-dots" id="nav-dots">
+        <!-- Точки добавляются через JS -->
+    </nav>
+
+    <!-- Стрелки навигации (десктоп) -->
+    <button class="nav-arrow nav-arrow-left" id="prev-btn" aria-label="Предыдущая категория">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+        </svg>
+    </button>
+    <button class="nav-arrow nav-arrow-right" id="next-btn" aria-label="Следующая категория">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+        </svg>
+    </button>
+
+    <!-- Счётчик категорий -->
+    <div class="category-counter">
+        <span id="current-index">1</span> / <span id="total-count">1</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
+

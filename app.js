@@ -272,8 +272,8 @@ function renderCategoryList(icon, key, category) {
             return renderUserSummaryItem(item, place);
         }).join('');
     } else if (isPair) {
-        // Пары
-        itemsHtml = category.data.slice(0, 10).map((item, i) => {
+        // Пары (показываем больше для любимых категорий)
+        itemsHtml = category.data.slice(0, 30).map((item, i) => {
             const place = i + 1;
             const isMutual = key === 'mutual_love';
             return renderPairItem(item, place, category.unit, isMutual);
@@ -443,23 +443,21 @@ function renderUserSummaryItem(item, place) {
     const avatar = renderAvatar(item.avatar_path, item.display_name);
     
     // Форматируем время голосовых и кружков
-    const voiceTime = formatDuration(item.voice_seconds || 0);
-    const videoTime = formatDuration(item.video_notes_seconds || 0);
+    const voiceMins = Math.round((item.voice_seconds || 0) / 60);
+    const videoMins = Math.round((item.video_notes_seconds || 0) / 60);
     
     return `
         <li class="top-item summary-item ${topClass}">
-            <div class="place-badge">${place}</div>
-            ${avatar}
-            <div class="item-info">
+            <div class="summary-header">
+                <div class="place-badge">${place}</div>
+                ${avatar}
                 <div class="item-name">${item.display_name}</div>
-                <div class="summary-stats">
-                    <span class="stat-item">💬 ${formatNumber(item.messages_count)}</span>
-                    <span class="stat-item">⭐ ${formatNumber(item.reactions_received)}</span>
-                </div>
             </div>
-            <div class="item-value">
-                <span class="value-number">${formatNumber(item.total_chars)}</span>
-                <span class="value-unit">символов</span>
+            <div class="summary-stats">
+                <span class="stat-item">💬 ${formatNumber(item.messages_count)}</span>
+                <span class="stat-item">⭐ ${formatNumber(item.reactions_received)}</span>
+                <span class="stat-item">🎤 ${voiceMins} мин</span>
+                <span class="stat-item">⭕ ${videoMins} мин</span>
             </div>
         </li>
     `;
@@ -480,9 +478,12 @@ function formatDuration(seconds) {
 // ============================================
 
 function renderAvatar(path, name, size = 44) {
+    const safeName = escapeHtml(name || '');
+    const initial = name ? name.charAt(0).toUpperCase() : '?';
     if (path) {
         const src = getAssetPath(path);
-        return `<img src="${src}" alt="${name}" class="avatar" style="width:${size}px;height:${size}px" onerror="this.outerHTML='${renderAvatarPlaceholder(name, size)}'">`;
+        // Используем data-атрибуты для безопасного fallback
+        return `<img src="${src}" alt="${safeName}" class="avatar" style="width:${size}px;height:${size}px" data-initial="${initial}" data-size="${size}" onload="this.classList.add('loaded')" onerror="handleAvatarError(this)">`;
     }
     return renderAvatarPlaceholder(name, size);
 }
@@ -490,6 +491,24 @@ function renderAvatar(path, name, size = 44) {
 function renderAvatarPlaceholder(name, size = 44) {
     const initial = name ? name.charAt(0).toUpperCase() : '?';
     return `<div class="avatar-placeholder" style="width:${size}px;height:${size}px;font-size:${size/2.5}px">${initial}</div>`;
+}
+
+// Безопасная обработка ошибки загрузки аватара
+function handleAvatarError(img) {
+    const initial = img.dataset.initial || '?';
+    const size = img.dataset.size || 44;
+    const placeholder = document.createElement('div');
+    placeholder.className = 'avatar-placeholder';
+    placeholder.style.cssText = `width:${size}px;height:${size}px;font-size:${size/2.5}px`;
+    placeholder.textContent = initial;
+    img.parentNode.replaceChild(placeholder, img);
+}
+
+// Экранирование HTML
+function escapeHtml(text) {
+    const div = document.createElement('div');
+    div.textContent = text;
+    return div.innerHTML;
 }
 
 function getAssetPath(absolutePath) {
@@ -531,13 +550,17 @@ function truncate(str, maxLen) {
 // КАРУСЕЛЬ
 // ============================================
 
+let carouselElement = null;
+let dragOffset = 0;
+
 function setupCarousel() {
-    const carousel = document.getElementById('carousel');
+    carouselElement = document.getElementById('carousel');
     
     // Touch события
-    carousel.addEventListener('touchstart', handleTouchStart, { passive: true });
-    carousel.addEventListener('touchmove', handleTouchMove, { passive: true });
-    carousel.addEventListener('touchend', handleTouchEnd);
+    carouselElement.addEventListener('touchstart', handleTouchStart, { passive: true });
+    carouselElement.addEventListener('touchmove', handleTouchMove, { passive: false });
+    carouselElement.addEventListener('touchend', handleTouchEnd);
+    carouselElement.addEventListener('touchcancel', handleTouchEnd);
     
     // Клавиатура
     document.addEventListener('keydown', (e) => {
@@ -548,31 +571,58 @@ function setupCarousel() {
 
 function handleTouchStart(e) {
     touchStartX = e.touches[0].clientX;
+    touchEndX = touchStartX;
     isDragging = true;
+    dragOffset = 0;
+    carouselElement.classList.add('dragging');
 }
 
 function handleTouchMove(e) {
     if (!isDragging) return;
+    
     touchEndX = e.touches[0].clientX;
+    dragOffset = touchEndX - touchStartX;
+    
+    // Ограничиваем drag на краях
+    const maxDrag = window.innerWidth * 0.3;
+    if (currentSlide === 0 && dragOffset > 0) {
+        dragOffset = Math.min(dragOffset, maxDrag) * 0.3;
+    } else if (currentSlide === totalSlides - 1 && dragOffset < 0) {
+        dragOffset = Math.max(dragOffset, -maxDrag) * 0.3;
+    }
+    
+    // Плавное следование за пальцем
+    const baseOffset = -currentSlide * 100;
+    const dragPercent = (dragOffset / window.innerWidth) * 100;
+    carouselElement.style.transform = `translateX(calc(${baseOffset}% + ${dragOffset}px))`;
+    
+    // Предотвращаем скролл страницы при горизонтальном свайпе
+    if (Math.abs(dragOffset) > 10) {
+        e.preventDefault();
+    }
 }
 
 function handleTouchEnd() {
     if (!isDragging) return;
     isDragging = false;
+    carouselElement.classList.remove('dragging');
     
-    const diff = touchStartX - touchEndX;
-    const threshold = 50;
+    const threshold = window.innerWidth * 0.15; // 15% ширины экрана
+    const velocity = Math.abs(dragOffset);
     
-    if (Math.abs(diff) > threshold) {
-        if (diff > 0) {
-            nextSlide();
-        } else {
-            prevSlide();
-        }
+    // Переключаем слайд если свайп достаточно большой или быстрый
+    if (dragOffset < -threshold || (dragOffset < -30 && velocity > 50)) {
+        nextSlide();
+    } else if (dragOffset > threshold || (dragOffset > 30 && velocity > 50)) {
+        prevSlide();
+    } else {
+        // Возвращаем на место
+        updateSlidePosition();
     }
     
     touchStartX = 0;
     touchEndX = 0;
+    dragOffset = 0;
 }
 
 function setupNavigation() {

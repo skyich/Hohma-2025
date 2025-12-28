@@ -24,8 +24,6 @@ const CATEGORY_ORDER = [
     'reaction_star',   // Звезда чата
     'favorite_person', // Любимый человек
     'mutual_love',     // Взаимная любовь
-    'reactions',       // Популярные реакции
-    'emoji',           // Эмодзи в тексте
     'stickers',        // Популярные стикеры
     'sticker_senders', // Любители стикеров
     'verbose_users',   // Самые многословные

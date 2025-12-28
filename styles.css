@@ -142,9 +142,11 @@ body {
 .carousel-wrapper {
     position: relative;
     z-index: 5;
-    height: calc(100vh - var(--header-height) - var(--nav-height) - 40px);
+    height: calc(100vh - var(--header-height) - var(--nav-height) - 70px);
+    height: calc(100dvh - var(--header-height) - var(--nav-height) - 70px);
     overflow: hidden;
     padding: 0 10px;
+    padding-bottom: 20px;
 }
 
 .carousel {
@@ -392,36 +394,50 @@ body {
 .pair-container {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     flex: 1;
     min-width: 0;
 }
 
 .pair-arrow {
     color: var(--warm-orange);
-    font-size: 1.2rem;
+    font-size: 1rem;
     flex-shrink: 0;
 }
 
 .pair-user {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 4px;
     min-width: 0;
+}
+
+.pair-user .avatar,
+.pair-user .avatar-placeholder {
+    width: 32px !important;
+    height: 32px !important;
+    font-size: 14px !important;
 }
 
 .pair-user .item-name,
 .pair-user .pair-name {
-    max-width: 100px;
+    max-width: 70px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
 }
 
 /* Компактный вид для пар */
 .pair-item {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    padding: 10px 12px;
+}
+
+.pair-item .place-badge {
+    width: 30px;
+    height: 30px;
+    font-size: 0.8rem;
 }
 
 .pair-item .pair-container {
@@ -431,6 +447,15 @@ body {
 
 .pair-item .item-value {
     flex-shrink: 0;
+    text-align: right;
+}
+
+.pair-item .value-number {
+    font-size: 1rem;
+}
+
+.pair-item .value-unit {
+    font-size: 0.7rem;
 }
 
 /* ============================================
@@ -612,12 +637,15 @@ body {
 
 .category-counter {
     position: fixed;
-    bottom: 70px;
+    bottom: calc(70px + env(safe-area-inset-bottom));
     left: 50%;
     transform: translateX(-50%);
     font-size: 0.8rem;
     color: var(--text-muted);
     z-index: 20;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 4px 10px;
+    border-radius: 10px;
 }
 
 /* ============================================

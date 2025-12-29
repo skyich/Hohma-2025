@@ -66,15 +66,19 @@ function createLights() {
     const container = document.getElementById('lights');
     const colors = ['#ffd700', '#ffbf00', '#ffa500', '#ff8c00', '#fff8dc'];
     
-    for (let i = 0; i < 30; i++) {
+    // Меньше огоньков на мобильных для производительности
+    const isMobile = window.matchMedia('(max-width: 768px)').matches;
+    const lightCount = isMobile ? 12 : 25;
+    
+    for (let i = 0; i < lightCount; i++) {
         const light = document.createElement('div');
         light.className = 'light';
         
-        const size = Math.random() * 6 + 2;
+        const size = Math.random() * 5 + 2;
         const x = Math.random() * 100;
         const y = Math.random() * 100;
         const color = colors[Math.floor(Math.random() * colors.length)];
-        const duration = Math.random() * 3 + 2;
+        const duration = Math.random() * 3 + 3;
         const delay = Math.random() * 5;
         
         light.style.cssText = `
@@ -83,7 +87,7 @@ function createLights() {
             left: ${x}%;
             top: ${y}%;
             background: ${color};
-            box-shadow: 0 0 ${size * 2}px ${color};
+            box-shadow: 0 0 ${size}px ${color};
             --duration: ${duration}s;
             --delay: ${delay}s;
         `;

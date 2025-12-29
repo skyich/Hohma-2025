@@ -169,6 +169,8 @@ body {
     scrollbar-width: thin;
     scrollbar-color: var(--gold) transparent;
     -webkit-overflow-scrolling: touch;
+    will-change: scroll-position;
+    contain: layout style;
 }
 
 .carousel-slide::-webkit-scrollbar {
@@ -189,9 +191,7 @@ body {
    ============================================ */
 
 .category-card {
-    background: var(--bg-card);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
+    background: rgba(40, 25, 18, 0.95);
     border: 1px solid rgba(255, 245, 235, 0.1);
     border-radius: 24px;
     padding: 24px;
@@ -238,12 +238,17 @@ body {
     background: rgba(255, 255, 255, 0.03);
     border-radius: 16px;
     margin-bottom: 10px;
-    transition: all 0.2s ease;
+    contain: layout style;
 }
 
-.top-item:hover {
-    background: rgba(255, 255, 255, 0.06);
-    transform: translateX(4px);
+@media (hover: hover) {
+    .top-item {
+        transition: all 0.2s ease;
+    }
+    .top-item:hover {
+        background: rgba(255, 255, 255, 0.06);
+        transform: translateX(4px);
+    }
 }
 
 /* Топ-3 выделение */
@@ -578,8 +583,7 @@ body {
     gap: 10px;
     z-index: 20;
     padding: 10px 16px;
-    background: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    background: rgba(20, 12, 8, 0.85);
     border-radius: 20px;
 }
 
@@ -606,8 +610,7 @@ body {
     height: 44px;
     border-radius: 50%;
     border: none;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
+    background: rgba(40, 25, 18, 0.9);
     color: var(--text-primary);
     cursor: pointer;
     z-index: 20;

@@ -168,15 +168,11 @@ function renderCategoryContent(key, data, type) {
 
 // Общая статистика чата
 function renderChatSummary(icon, data) {
-    const firstDate = data.first_message_date ? formatDate(data.first_message_date) : '—';
-    const lastDate = data.last_message_date ? formatDate(data.last_message_date) : '—';
-    
     return `
         <div class="category-card">
             <div class="category-header">
                 <span class="category-icon">${icon}</span>
                 <h2 class="category-title">Статистика чата</h2>
-                <p class="category-subtitle">${firstDate} — ${lastDate}</p>
             </div>
             <div class="summary-grid">
                 <div class="summary-item">
